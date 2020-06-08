@@ -1,0 +1,105 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.ImageListContainer {
+
+}
+
+/* Image Item Box */
+
+.ImgContainer {
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  width: 525px;
+  margin-bottom:85px;
+}
+
+/* Image Display Box */
+
+.ImgBox {
+  margin-right:45px;
+}
+
+.ImgThumb {
+  width: 280px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.ImgThumbBox {
+  width: 280px;
+  margin-bottom:0.25px;
+  position: relative;
+  text-align: center;
+}
+
+
+.ImgThumbButton {
+  position: absolute;
+  width:280px;
+  bottom: 0px;
+  height: 40px;
+  opacity:1;
+  color:white;
+  font-size:19px;  
+  font-weight: bold;
+  background-color:rgb(187, 69, 101);
+}
+
+.ImgThumbButtonSaved  {
+
+  background-color:rgb(231, 138, 55);
+}
+
+/* Image Information and Tags */
+
+.ImgInfo {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  min-height: 100%;
+  max-width: 40%;
+  justify-content: space-between;
+}
+
+.ImgTags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ImgTags>.badge-success {
+  height: 30px;
+  font-size: 14px;
+  margin-right: 6px;
+  margin-bottom: 5px;
+  border-radius:0em;
+  background-color: rgb(30, 158, 136);
+}
+
+.ImgStats {
+  text-align: center;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ImgFavorites {
+  margin-right: 15px;
+}
+
+.IconAlign {
+  vertical-align: -5%;
+}
+
