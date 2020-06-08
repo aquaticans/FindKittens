@@ -28,7 +28,7 @@ export default class FindKittenContainer extends React.Component {
     }
 
     updateSearchText(text) {
-        if (text.length > 0 && text.length < 101) this.setState({ searchText: text });
+        if (text.length < 101) this.setState({ searchText: text });
     }
 
     updateCategory(text) {
